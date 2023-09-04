@@ -1,0 +1,71 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --green: #C4E477;
+    --purple: #410939;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: Helvetica;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+ul {
+    font-family: helvética;
+}
+
+
+.list {
+    list-style: georgian;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--purple);
+    --btnBg: var(--purple);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--purple);
+    --fontColor: var(--green);
+    --btnBg: var(--green);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
+    border: none;
+}
+
+.btn:focus {outline-style: none;}
+
+.btn-form {
+    position: relative;
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
+    float: left;
+    left: 100px;
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    border: none;
+}
+
+.inputcampos {
+    width: 150px;
+    color: var(--black);
+    padding: 3px;
+    outline: none;
+}
