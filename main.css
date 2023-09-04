@@ -1,13 +1,18 @@
 :root {
     --white: #ffffff;
     --black: #000000;
-    --green: #C4E477;
-    --purple: #410939;
+    --orange: #FE5F2F;
+    --bluedark: #112A4A;
+    --yellow: hsl(43, 100%, 57%);
 }
 
 * {
-    color: var(--fontColor);
+    color: var(--fontText);
     font-family: Helvetica;
+}
+
+h1, h2 {
+    color: var(--fontColor);
 }
 
 body{
@@ -24,17 +29,19 @@ ul {
 }
 
 .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--purple);
-    --btnBg: var(--purple);
-    --btnFontColor: var(--white);
+    --bg: var(--white);
+    --fontColor: var(--bluedark);
+    --btnBg: var(--bluedark);
+    --btnFontColor: var(--yellow);
+    --fontText: var(--black);
 }
 
 .dark-theme {
-    --bg: var(--purple);
-    --fontColor: var(--green);
-    --btnBg: var(--green);
-    --btnFontColor: var(--black);
+    --bg: var(--bluedark);
+    --fontColor: var(--yellow);
+    --btnBg: var(--orange);
+    --btnFontColor: var(--bluedark);
+    --fontText: var(--white);
 }
 
 .btn {
