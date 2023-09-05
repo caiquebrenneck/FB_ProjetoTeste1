@@ -3,16 +3,17 @@
     --black: #000000;
     --orange: #FE5F2F;
     --bluedark: #112A4A;
-    --yellow: hsl(43, 100%, 57%);
+    --yellow: #ffc124;
 }
 
 * {
     color: var(--fontText);
-    font-family: Helvetica;
+    font-family: georgia;
 }
 
 h1, h2 {
     color: var(--fontColor);
+    font-family: Papyrus;
 }
 
 body{
@@ -23,14 +24,13 @@ ul {
     font-family: helvética;
 }
 
-
 .list {
     list-style: georgian;
 }
 
 .light-theme {
     --bg: var(--white);
-    --fontColor: var(--bluedark);
+    --fontColor: var(--orange);
     --btnBg: var(--bluedark);
     --btnFontColor: var(--yellow);
     --fontText: var(--black);
