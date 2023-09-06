@@ -2,7 +2,7 @@
     --white: #ffffff;
     --black: #000000;
     --orange: #FE5F2F;
-    --bluedark: #112A4A;
+    --bluedark: #082338;
     --yellow: #ffc124;
 }
 
@@ -75,4 +75,10 @@ ul {
     color: var(--black);
     padding: 3px;
     outline: none;
+}
+
+.cabecalho {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
