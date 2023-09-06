@@ -76,17 +76,3 @@ ul {
     padding: 3px;
     outline: none;
 }
-
-.cabecalho {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    width: 300px;
-    height: 500px;
-}
